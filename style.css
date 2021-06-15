@@ -1,0 +1,258 @@
+.Header h1{}
+.Header h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.Header p {
+    font-weight: 600;
+    color: #00000094;
+    margin-top: 25px;
+    position: relative;
+}
+.Header p::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #3763EB;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+.service-box {
+    background: #F6F9FC;
+    padding: 20px 20px;
+    transition: .6s;
+    border-radius: 8px;
+}
+.service-box:hover{
+    background: #3763EB;
+    color: white;
+}
+.service-box:hover i{
+    color: #3763EB;
+    background: white;
+}
+
+.service-box:hover span{
+    color: white;
+} 
+.service-box p{
+    font-weight: 700;
+}
+.service-box span {
+    color: #0000007a;
+    margin-bottom: 15px;
+    transition: .6s;
+}
+.service-icon i{
+    text-align: center;
+    color: white;
+    font-size: ]18px;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    line-height: 50px;
+    background-color: #3763EB;
+    border-radius: 50% 50% 50% 0%;
+    position: relative;
+    transition: .6s
+}
+.service-icon i::after {
+    content: "";
+    width: 80%;
+    height: 2px;
+    background: #3763EB;
+    position: absolute;
+    top: 129%;
+    left: 0;
+    transition:.6s
+}
+.service-box:hover i::after{
+    background-color: white;
+}
+.Banner{
+    background-image: url(./video-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+.Banner::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(9 12 29 / 79%);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.banner-content{
+    text-align: center;
+    z-index: 999;
+}
+.banner-content span{
+    color:white;
+}
+.banner-content h1{
+    color:white;
+}
+.banner-content p{
+    color:white;
+    position: relative;
+}
+.banner-content p::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    margin: auto;
+    text-align: center;
+    background: white;
+    position: absolute;
+    top: -20px;
+    right: 48%;
+}
+.banner-play-btn{
+    text-align: center;
+}
+.banner-play-btn i {
+    color:blueviolet;
+    font-size: 30px !important;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    line-height: 90px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    transition: .5s;
+  
+}
+.banner-play-btn i:hover{
+    background-color: blue;
+    color: white;
+    cursor:pointer;
+}
+.banner-play-btn i::after{
+    content: "";
+    height:90px;
+    width: 90px;
+    border-radius: 50%;
+    background:rgba(12, 12, 241, 1);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    animation: banner-playBtn 1s infinite ease-out ;
+    
+}
+@keyframes banner-playBtn {
+     0%{
+         transform: scale(.2);
+         opacity: 1;
+     }
+     30%{
+        transform: scale(.5);
+        opacity: .5;
+    }
+    50%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+  }
+
+.Pricing-section{
+    background: #F6F9FC;
+}  
+.pricing-header p{
+    display: inline-block
+}
+.pricing-header p::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #3763EB;
+    position: absolute;
+    top: -12px;
+    left: 45%;
+}
+.pBox-button a {
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: .5s;
+}
+.pBox-button a:hover{
+    background: rgba(0, 0, 0, 0.808);
+    border-color:rgba(0, 0, 0, 0.608);
+}
+.pBox-ifo strong {
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.pBox-ifo h1{
+    margin-bottom: 8px;
+}
+.pBox-ifo span{
+    margin-bottom: 50px;
+    display: inline-block;
+    position: relative;
+}
+.pBox-facilities p {
+    line-height: 2.5;
+    margin-bottom: 25px;
+}
+.pBox-ifo span::after {
+    content: "";
+    width: 204%;
+    height: 1px;
+    background: radial-gradient(#00000073, transparent);
+    position: absolute;
+    top: 52px;
+    left: -41px;
+}
+.single-pricing-box {
+    box-shadow: 1px 1px 6px 4px #dddd;
+    border-radius: 5px;
+}
+.Purchase-section{
+    background-image: url(./free-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+.purchase-header p::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: -12px;
+    left: 48%;
+}
+.Purchase-section::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(31 31 222 / 71%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.purchase-content button{
+    padding: 10px 15px;
+    border-radius: 24px;
+    display: inline-block;
+    transition: .6s;
+    font-weight: 700;
+}
+.purchase-content button:hover{
+    background: rgba(0, 0, 255, 0.836);
+    color: white !important;
+    border-color: rgba(0, 0, 255, 0.836);
+}
