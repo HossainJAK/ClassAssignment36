@@ -256,3 +256,70 @@
     color: white !important;
     border-color: rgba(0, 0, 255, 0.836);
 }
+.Newsletter-section{
+    background: #F6F9FC;
+}
+.n-subsctibe{
+    background: #3763EB;
+    padding: 40px 20px;
+    border-radius: 9px;
+}
+.news-letter-text{}
+.news-letter-text h3{
+    color: white !important;
+}
+.news-letter-text p{
+    color: white !important;
+}
+.newsletter-form{}
+.newsletter-form input{
+    padding: 15px 15px;
+    border-radius: 25px;
+    background: #FFFFFF !important;
+}
+.newsletter-btn button{
+    padding: 14px 15px;
+    border-radius: 25px;
+}
+.get-started-cart {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 7px #000000db;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: start !important;
+}
+.N-getstarted{
+    /* box-shadow: 0px 1px 10px black; */
+    box-sizing: border-box;
+    /* border-radius: 10px;
+    margin-left: 0px; */
+}
+.get-started-cart strong {
+    font-size: 24px;
+}
+.get-started-cart p {
+    color: #524949dd;
+}
+.get-started-cart  button{
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.Sngle-clinetBox {
+    border: 1px solid #ddd;
+    padding: 20px 15px;
+    transition: .6s ease-in-out;
+}
+.Sngle-clinetBox:hover {
+    background: rgba(34, 214, 238, 0.075);
+}
+.client-imgae{
+    width: 180px;
+    height: 96px;
+}
+.client-imgae img{
+    width: 100%;
+    height: 100%;
+}
